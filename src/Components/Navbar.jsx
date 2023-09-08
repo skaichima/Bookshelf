@@ -5,7 +5,7 @@ import { CiSearch, CiBookmark } from 'react-icons/ci';
 
 export default function Navbar() {
   return (
-    <Flex as="nav" bg="blackAlpha.800" color="white" p="5" justify={"space-between"} m={2} borderRadius={18} align='center'>
+    <Flex as="nav" bg="blackAlpha.800" color="white" p="5" justify={"space-between"} mx={5} borderRadius={18} align='center'>
       <Flex align='center' gap={4}>
         <Image FlexSize="10px" objectFit="contain" src={logo} alt="logo" />
         <Text fontWeight={600}>
